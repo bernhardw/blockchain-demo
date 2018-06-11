@@ -8,11 +8,11 @@ block content
       h3 #{__('Peer')} #{peer}
       .row.row-horizon
         - var blocks = []
-        - blocks.push({block: 1, chain: chain, nonce: 11316, content: 'itcc.li Ausflug 2013\n24. Oktober 2013\nGoogle ZH', previous: '0000000000000000000000000000000000000000000000000000000000000000'})
-        - blocks.push({block: 2, chain: chain, nonce: 35230, content: 'itcc.li Ausflug 2014\n26. März 2014\nSRF-Studio in Leutschenbach', previous: '000015783b764259d382017d91a36d206d0600e2cbb3567748f46a33fe9297cf'})
-        - blocks.push({block: 3, chain: chain, nonce: 12937, content: 'itcc.li Ausflug 2014\n26. März 2014\nSRF-Studio in Leutschenbach', previous: '000012fa9b916eb9078f8d98a7864e697ae83ed54f5146bd84452cdafd043c19'})
-        - blocks.push({block: 4, chain: chain, nonce: 35990, content: 'itcc.li Ausflug 2015\n13. März 2015\nMicrosoft Schweiz in Wallisellen', previous: '0000b9015ce2a08b61216ba5a0778545bf4ddd7ceb7bbd85dd8062b29a9140bf'})
-        - blocks.push({block: 5, chain: chain, nonce: 56265, content: 'itcc.li Ausflug 2016\n14. Oktober 2016\nHilti AG, Innovationszentrum', previous: '0000ae8bbc96cf89c68be6e10a865cc47c6c48a9ebec3c6cad729646cefaef83'})
+        - blocks.push({block: 1, chain: chain, nonce: 1103, content: 'itcc.li Ausflug 2013\n24. Oktober 2013\nGoogle ZH', previous: '0000000000000000000000000000000000000000000000000000000000000000'})
+        - blocks.push({block: 2, chain: chain, nonce: 49382, content: 'itcc.li Ausflug 2014\n26. März 2014\nSRF-Studio in Leutschenbach', previous: '00002150ece535e9cde8a41764fd49fc5219fd9659ed9ae67b27c55a2a836e46'})
+        - blocks.push({block: 3, chain: chain, nonce: 6620, content: 'itcc.li Ausflug 2014\n26. März 2014\nSRF-Studio in Leutschenbach', previous: '0000125350704a9e851e6a398e941ef121a854d5c743c95563614c8cd4106302'})
+        - blocks.push({block: 4, chain: chain, nonce: 162927, content: 'itcc.li Ausflug 2015\n13. März 2015\nMicrosoft Schweiz in Wallisellen', previous: '000001c06ef3ef63686ee91a3ae8b76733c55a50be9fba6b475db9fab975bcdb'})
+        - blocks.push({block: 5, chain: chain, nonce: 91340, content: 'itcc.li Ausflug 2016\n14. Oktober 2016\nHilti AG, Innovationszentrum', previous: '0000010231f57163274bdbc1a9352a90f52c6698d80796d5b36ce4ad80b92d96'})
         each block in blocks
           .col-xs-7
             include includes/block.jade
